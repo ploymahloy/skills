@@ -23,14 +23,32 @@ Install only one skill:
 npx skills add ploymahloy/skills --skill commit-message -g -a cursor -y
 ```
 
-Replace `ploymahloy/skills` with this repository’s GitHub path (e.g. `your-user/skills`).
-
 ## Install (project-local)
 
 From another repo’s root (without `-g`):
 
 ```bash
 npx skills add ploymahloy/skills -a cursor -y
+```
+
+## Update
+
+Pull the latest versions of skills already installed from this repo:
+
+```bash
+npx skills update -g -y
+```
+
+Update only project-local installs (from that project’s root):
+
+```bash
+npx skills update -p -y
+```
+
+Update a single skill by name:
+
+```bash
+npx skills update commit-message -g -y
 ```
 
 ## Local development
