@@ -6,7 +6,7 @@ Reusable [Agent Skills](https://agentskills.io/) for Cursor and other coding age
 
 | Skill | Description |
 | --- | --- |
-| [`commit-message`](skills/commit-message/) | Conventional commits with the 50/72 rule. Less is more. |
+| [`commit-message`](skills/commit-message/) | Conventional commits with the 50/72 rule. Confirm via Shell Run card (⌘↵); use Allowlist without sandbox. |
 | [`tdd-test`](skills/tdd-test/) | Failing tests from product requirements. No mocks. Stop and ask before Green. |
 
 ## Install (global)
